@@ -56,6 +56,8 @@ https://github.com/aishwaryamensinkai/OnlineShopping-frontend
 
   https://hostingtutorials.dev/blog/free-spring-boot-host-with-render
 
+  https://www.youtube.com/watch?v=ek-kOz6kJbU&t=1s
+
 #### Query to add products details to shopping database
 ```bash
 INSERT INTO products (title, brand, price, description, quantity, image, category) VALUES
