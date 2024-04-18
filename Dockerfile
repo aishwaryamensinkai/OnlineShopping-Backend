@@ -5,9 +5,7 @@ FROM gradle:7.4.0-jdk11 AS build
 WORKDIR /app
 
 # Copy the Gradle files
-COPY build.gradle .
-COPY settings.gradle .
-COPY application.properties .
+COPY . .
 
 # Copy the source code
 COPY src ./src
