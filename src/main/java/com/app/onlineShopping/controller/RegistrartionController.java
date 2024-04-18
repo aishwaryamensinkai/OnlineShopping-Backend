@@ -19,13 +19,13 @@ public class RegistrartionController {
 	private RegistrartionRepository repo;
 	
 	@GetMapping("/getUser/{userId}")
-	@CrossOrigin(origins = "http://localhost:4200")
+	@CrossOrigin(origins = "https://aishwaryamensinkai.github.io/OnlineShopping-frontend/#/")
 	public User getUser(@PathVariable(value = "userId") int id) throws Exception,Throwable {
 		return service.fetchUserByUserId(id);
 	}
 	
 	@PostMapping("/registeruser")
-	@CrossOrigin(origins = "http://localhost:4200")
+	@CrossOrigin(origins = "https://aishwaryamensinkai.github.io/OnlineShopping-frontend/#/")
 	public User registerUser(@RequestBody User user) throws Exception,Throwable {
 		String tempEmailId = user.getEmailId();
 		
