@@ -11,7 +11,7 @@ COPY . .
 COPY src ./src
 
 # Build the application
-RUN gradle build --no-daemon
+RUN gradle build
 
 # Use a smaller base image for the runtime environment
 FROM openjdk:17.0.1-jdk-slim
