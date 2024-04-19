@@ -18,7 +18,7 @@ COPY settings.gradle.kts .
 COPY src ./src
 
 # Build the application
-RUN ./gradlew build
+RUN ./gradlew build --debug
 
 # Use a smaller base image for the runtime environment
 FROM openjdk:17
